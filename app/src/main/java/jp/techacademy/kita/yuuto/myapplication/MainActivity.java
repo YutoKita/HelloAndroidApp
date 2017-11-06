@@ -9,5 +9,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Human kita = new Human("kita",31);
+
+        kita.say();
+
+        Human Myhobby = new Human("movie");
+
+        Myhobby.think();
+
     }
 }
