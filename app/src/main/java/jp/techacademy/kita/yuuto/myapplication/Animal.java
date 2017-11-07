@@ -7,8 +7,9 @@ package jp.techacademy.kita.yuuto.myapplication;
 
 abstract class Animal {
     //メンバ変数
-    String name; //名前
-    int age;     //年齢
+    String name;  //名前
+    int age;      //年齢
 
     abstract public void say();
+
 }

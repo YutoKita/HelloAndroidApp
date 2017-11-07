@@ -2,6 +2,7 @@ package jp.techacademy.kita.yuuto.myapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,13 +11,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Human kita = new Human("kita",31);
+        Human human = new Human("kita", 31, "movie"); //名前kita、年齢31歳、趣味movieのhumanインスタンス
 
-        kita.say();
-
-        Human Myhobby = new Human("movie");
-
-        Myhobby.think();
-
+        //メンバ関数
+    human.say();
+    human.think();
     }
 }
+

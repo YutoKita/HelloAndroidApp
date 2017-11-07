@@ -15,14 +15,12 @@ class Human extends Animal implements Thinkable{
     String hobby;
 
     //コンストラクタ
-    public Human(String name, int age) {
+    public Human(String name, int age, String hobby) {
         this.name = name;    //名前
         this.age = age;      //年
-    //    this.hobby = hobby; //趣味
-    }
-    public Human(String hobby){
-        this.hobby = hobby;
-    }
+        this.hobby = hobby;  //趣味
+        }
+
 
     //メンバ関数
     public void say(){
